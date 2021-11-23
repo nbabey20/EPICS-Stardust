@@ -1,0 +1,63 @@
+p {
+    color:rgba(0, 0, 0, 0.884);
+    font-size: 24px;
+    font-family: Verdana;
+}
+a{
+    text-decoration:none;
+    text-align: center;
+}
+body{
+        background-color:rgba(166, 111, 255, 0.555)
+}
+h1{
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-family: Verdana;
+}
+hr{
+    border-color: black;
+}
+.normdiv{
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.displaytext{
+    color:aliceblue;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    font-size: 30px;
+}
+#arizona{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+        position: relative;
+        float: left;
+        padding-right: 15px;
+}
+#special{
+    background-color:rgb(255, 251, 196);
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+}
+#specialpar{
+    text-align: left;
+}
+ul{
+    font-family: Verdana;
+}
+.regularnav{
+        background-color: rgb(54, 54, 54);
+}

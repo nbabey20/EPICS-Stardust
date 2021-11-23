@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <link href="stardustlayout.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url('https://media.istockphoto.com/photos/milky-way-galaxy-over-arch-in-desert-picture-id948805944?k=6&m=948805944&s=170667a&w=0&h=Con8ehZ4dk6Z3tRGdY-nP9gjXUqNEiVzKazMzD68NII=');">
+    <ul class="nav regularnav">
+        <li class="nav-item">
+          <a class="nav-link active" href="stardust.html">Homepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+
+     <h1 style="color: rgb(255, 252, 247);">Stardust</h1>
+     <hr>
+     <div class="container">
+
+            <div class="normdiv">
+            <p class="displaytext" id="test">
+              Welcome to our degradation calculator. 
+            </p>
+            </div>
+            <div>
+              <p class="displaytext">
+                Enter irriadiance in (W / m^2)
+              </p>
+              <input type="text" id="irr">
+            </div>
+            <div>
+              <p class="displaytext">
+                Enter current power from watt meter (V)
+              </p>
+              <input type="text" id="current">
+            </div>
+            <div>
+              <p class="displaytext">
+                Enter max power found on back of solar panel (V)
+              </p>
+              <input type="text" id="max">
+            </div>
+            <div>
+              <button type="button" id="calculate">Caculate</button>
+            </div>
+            <div>
+              <p class="displaytext">Degradation: </p>
+            </div>
+
+     </div>
+     <script src="stardustjs.js"></script>
+</body>
+
+</html>
