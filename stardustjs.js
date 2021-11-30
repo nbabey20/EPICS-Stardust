@@ -19,10 +19,13 @@ function onClick(e){
         irradiance = document.getElementById("irr").value;
         currentPower = document.getElementById("curr").value;
         maxPower = document.getElementById("max").value;
+        calcDeg(irr, curr, max);
     }
 }
-function calcDeg(x, y, z){
-     
+function calcDeg(irr, curr, max){
+    var stdIrr = 1000;
+    var operatingEff = ((stdIrr*curr)/(irr*max)) * 100;
+    var degredation = 100 - operatingEff;
 }
 var buttons = document.getElementsByClassName("btn");
 for(var i = 0; i < buttons.length; i++) {
