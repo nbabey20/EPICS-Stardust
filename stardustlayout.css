@@ -61,3 +61,7 @@ ul{
 .regularnav{
         background-color: rgb(54, 54, 54);
 }
+.Output{
+    color:aliceblue;
+    display:inline-block;
+  }
